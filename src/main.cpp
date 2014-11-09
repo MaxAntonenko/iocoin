@@ -302,7 +302,7 @@ bool CTransaction::ReadFromDisk(COutPoint prevout)
 
 bool IsStandardTx(const CTransaction& tx)
 {
-    if (tx.nVersion > CTransaction::CURRENT_VERSION)
+    if (tx.nVersion > CTransaction::VERSION_WITH_INFO)
         return false;
    
     // Treat non-final transactions as non-standard to prevent a specific type

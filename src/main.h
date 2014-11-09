@@ -447,7 +447,7 @@ class CTransaction
 {
 public:
     static const int CURRENT_VERSION=1;
-    static const int VERSION_WITH_INFO=2;
+    static const int VERSION_WITH_INFO=3;
     int nVersion; 
     unsigned int nTime;
     std::vector<CTxIn> vin;
