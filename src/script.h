@@ -184,10 +184,13 @@ enum opcodetype
     OP_CHECKMULTISIG = 0xae,
     OP_CHECKMULTISIGVERIFY = 0xaf,
 
+    // DIONS
+    OP_KV = 0xb0,
+    OP_REGISTER = 0xb1,
+    OP_UPDATE = 0xb2,
+
+
     // expansion
-    OP_NOP1 = 0xb0,
-    OP_NOP2 = 0xb1,
-    OP_NOP3 = 0xb2,
     OP_NOP4 = 0xb3,
     OP_NOP5 = 0xb4,
     OP_NOP6 = 0xb5,
