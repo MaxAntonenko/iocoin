@@ -233,6 +233,7 @@ static const CRPCCommand vRPCCommands[] =
     { "getpowtimeleft",         &getpowtimeleft,         true,   false },
     { "getconnectioncount",     &getconnectioncount,     true,   false },
     { "getpeerinfo",            &getpeerinfo,            true,   false },
+    { "ping",                   &ping,                   true,   false },
     { "getdifficulty",          &getdifficulty,          true,   false },
     { "getnetworkmhashps",      &getnetworkmhashps,      true,   false },
     { "getinfo",                &getinfo,                true,   false },
